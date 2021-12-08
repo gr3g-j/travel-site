@@ -1,24 +1,15 @@
 {
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "normalize.css": "^8.0.1"
-  },
   "name": "travel-site",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gr3g-j/travel-site.git"
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gr3g-j/travel-site/issues"
-  },
-  "homepage": "https://github.com/gr3g-j/travel-site#readme",
-  "description": ""
+  "devDependencies": {
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0"
+  }
 }
